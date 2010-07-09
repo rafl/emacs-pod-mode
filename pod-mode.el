@@ -202,8 +202,7 @@ escapes."
 (defvar pod-mode-hook nil
   "List of functions to be called when activating `pod-mode'.")
 
-;;; Version: 1.01
-(defvar pod-version "1.01"
+(defvar pod-version "1.03"
   "Version of POD mode.")
 
 (let* ((head-sizes '(1.9 1.7 1.5 1.3))
