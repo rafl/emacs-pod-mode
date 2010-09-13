@@ -509,7 +509,7 @@ the POD defaults."
 SECTIONS can be used to supply section commands in addition to
 the POD defaults."
   (setq imenu-generic-expression
-        `((nil ,(format "^=%s\s+\\(.*\\)"
+        `((nil ,(format "^=\\(?:%s\\)\s+\\(.*\\)"
                         (regexp-opt
                          (append
                           (loop for i from 1 to 4 collect (format "head%d" i))
